@@ -1,0 +1,32 @@
+<?xml version = "1.0"?>
+<web-app>
+    <servlet>
+        <servlet-name>GServlet</servlet-name>
+        <servlet-class>GServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GServlet</servlet-name>
+        <url-pattern>/gs</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <init-param>
+            <param-name>name</param-name>
+            <param-value>Sunil</param-value>
+        </init-param>
+        <init-param>
+            <param-name>regno</param-name>
+            <param-value>22335A1208</param-value>
+        </init-param>
+        <servlet-name>HServlet</servlet-name>
+        <servlet-class>HServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HServlet</servlet-name>
+        <url-pattern>/hs</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+</web-app>
